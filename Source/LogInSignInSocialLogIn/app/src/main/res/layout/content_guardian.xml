@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".GuardianActivity"
+    tools:showIn="@layout/activity_guardian">
+    <ListView
+        android:id="@+id/list"
+        style="@style/fit_parent"/>
+
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/fit_parent"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/progress_bar"/>
+
+</android.support.constraint.ConstraintLayout>
